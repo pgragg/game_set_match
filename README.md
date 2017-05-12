@@ -38,8 +38,13 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/pgragg/game_set_match.
 
-
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+## TODO	
+Title words which belong to fewer objects should be weighted more heavily, since they are more unique. 
+Longer title words should be weighted more heavily. 
+Commonly used words should not be considered when weighting titles (the, an, a, or, etc.)
+Users should have the option of outputting a list of indices or of matched objects. 
 
