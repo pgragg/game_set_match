@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "set_matching"
+require "game_set_match"
 require "matcher"
 
 RSpec.configure do |config|

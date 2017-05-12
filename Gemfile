@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in set_matching.gemspec
+# Specify your gem's dependencies in game_set_match.gemspec
 gemspec

@@ -1,8 +1,8 @@
 require "spec_helper"
 
-RSpec.describe SetMatching do
+RSpec.describe GameSetMatch do
   it "has a version number" do
-    expect(SetMatching::VERSION).not_to be nil
+    expect(GameSetMatch::VERSION).not_to be nil
   end
 
 end

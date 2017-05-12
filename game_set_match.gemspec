@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'set_matching/version'
+require 'game_set_match/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "set_matching"
-  spec.version       = SetMatching::VERSION
+  spec.name          = "game_set_match"
+  spec.version       = GameSetMatch::VERSION
   spec.authors       = ["Piper Gragg"]
   spec.email         = ["pipergragg@gmail.com"]
 

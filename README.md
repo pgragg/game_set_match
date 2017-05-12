@@ -1,11 +1,11 @@
-# SetMatching
+# GameSetMatch
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'set_matching'
+gem 'game_set_match'
 ```
 
 And then execute:
@@ -14,11 +14,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install set_matching
+    $ gem install game_set_match
 
 ## Usage
+Let's say you have two lists of songs: filenames and user inputs. You want to match user inputs to filenames that you have. 
 
-TODO: Write usage instructions here
+```
+filenames = ['01 - Lana Del Rey.mp4', '04 - The Heebee Jeeby Experience', '05 - Woodstock: What I learned']
+user_inputs = ['the_ heebee jeeby experience', 'lana del ray', 'woodstok what I learned']
+GameSetMatch.new(filenames, user_inputs) => 
+    	{"the_ heebee jeeby experience"=>"04 - The Heebee Jeeby Experience", 
+    	"lana del ray"=>"01 - Lana Del Rey.mp4", 
+    	"woodstok what I learned"=>"05 - Woodstock: What I learned"}
+```
 
 ## Development
 
@@ -28,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/pgragg/set_matching.
+Bug reports and pull requests are welcome on GitHub at https://github.com/pgragg/game_set_match.
 
 
 ## License
