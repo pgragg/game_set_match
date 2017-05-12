@@ -22,7 +22,7 @@ Let's say you have two lists of songs: filenames and user inputs. You want to ma
 ```
 filenames = ['01 - Lana Del Rey.mp4', '04 - The Heebee Jeeby Experience', '05 - Woodstock: What I learned']
 user_inputs = ['the_ heebee jeeby experience', 'lana del ray', 'woodstok what I learned']
-GameSetMatch.new(filenames, user_inputs) => 
+GameSetMatch.match(filenames, user_inputs) => 
     	{"the_ heebee jeeby experience"=>"04 - The Heebee Jeeby Experience", 
     	"lana del ray"=>"01 - Lana Del Rey.mp4", 
     	"woodstok what I learned"=>"05 - Woodstock: What I learned"}
