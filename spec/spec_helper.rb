@@ -1,5 +1,6 @@
 require "bundler/setup"
 require "set_matching"
+require "matcher"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
