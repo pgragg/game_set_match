@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["pipergragg@gmail.com"]
 
   spec.summary       = %q{Allow matching of terms in two enumerable sets.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/pgragg/game_set_match"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
